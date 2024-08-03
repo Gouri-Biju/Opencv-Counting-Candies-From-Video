@@ -21,7 +21,7 @@ def candy_count(image,desiredArea=100):
 
 if __name__ =='__main__':
     print('ran directly')
-    vs = cv2.VideoCapture('./image/candies_on_table.mov')
+    vs = cv2.VideoCapture('./video/candies_on_table.mov')
 
     while True:
         grabbed, frame = vs.read()
